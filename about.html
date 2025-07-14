@@ -1,68 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <title>The Lost Forge – About</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Danke an unsere Supporter!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: #111;
+      color: #fff;
+      overflow: hidden;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 2.5em;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .supporter-container {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      animation: scrollUp 20s linear infinite;
+    }
+
+    .supporter {
+      text-align: center;
+      font-size: 1.5em;
+      margin: 20px 0;
+    }
+
+    @keyframes scrollUp {
+      0% {
+        top: 100%;
+      }
+      100% {
+        top: -100%;
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>The Lost Forge</h1>
-    <p>Where Legends Are Forged</p>
-  </header>
-  
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="mods.html">Mods</a>
-    <a href="modinfos.html">Mod Infos</a>
-    <a href="about.html">About</a>
-    <a href="https://discord.gg/fdyuDu6TQT" target="_blank" class="discord-button">Join us on Discord</a>
-  </nav>
 
-  <main>
+  <h1>Ein großes Danke an unsere Supporter und Helfer!</h1>
 
-    <section style="max-width: 800px; margin: auto; padding: 2rem; text-align: center;">
-      <h2 style="color: #cd7f32;">About The Lost Forge</h2>
-      <p style="font-size: 1.2rem; color: #ddd; margin-top: 1rem;">
-        _The Lost Forge_ is more than a modding project — it's a myth reborn.
-        Inspired by worlds like **Skyrim**, **HTTYD**, and the old tales of the North, this realm brings you handcrafted weapons, lorebound relics, and community-created magic.
-      </p>
-    </section>
+  <div class="supporter-container">
+    <div class="supporter">MaxMustermann</div>
+    <div class="supporter">GamingFreak42</div>
+    <div class="supporter">ARKLover98</div>
+    <div class="supporter">SaurierFan3000</div>
+    <div class="supporter">DeinNameHier ❤️</div>
+    <!-- Füge hier weitere Namen hinzu -->
+  </div>
 
-    <section style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; padding: 2rem;">
-
-      <!-- ORIGIN -->
-      <div class="feature-box">
-        <h3>🗺️ Supporters</h3>
-        <p>
-          °Erza °Orymizu
-        </p>
-      </div>
-
-      <!-- TEAM -->
-      <div class="feature-box">
-        <h3>🧙‍♂️ The Creators</h3>
-        <p>
-          ° Killua
-        </p>
-      </div>
-
-      <!-- COMMUNITY -->
-      <div class="feature-box">
-        <h3>🔥 Artwork Creators</h3>
-        <p>
-          °NONE
-          °NONE
-        </p>
-      </div>
-
-    </section>
-
-  </main>
-
-  <footer>
-    © 2025 The Lost Forge – Crafted by passion & pixel fire
-  </footer>
 </body>
 </html>
